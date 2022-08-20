@@ -1,0 +1,14 @@
+{
+    "name": "campaign",
+    "_comment": "recordings are shown on campaign button (do not change above name)",
+    "recordings": [
+        {
+            "name": "Durchsagen (DE)",
+            "file": "DE_sample/04_announcements.mp3"
+        },
+        {
+            "name": "Announcements (EN)",
+            "file": "EN_sample/04_announcements.mp3"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Z Beispielroute",
+    "fenceRadiusMeters": 75,
+    "code": "DE",
+    "_comment": "code is optional (country code ISO 3166-1)",
+    "positions": [
+        {
+            "name": "Willkommen",
+            "coordinates": [52.516312, 13.378140],
+            "_comment": "fenceRadiusMeters is optional and should only be set if necessary",
+            "file": "DE_sample/01_welcome.mp3"
+        },
+        {
+            "name": "Eigene Route",
+            "coordinates": [52.513646, 13.392206],
+            "file": "DE_sample/02_ownroute.mp3"
+        },
+        {
+            "name": "Pricing",
+            "coordinates": [52.521780, 13.413236],
+            "file": "DE_sample/03_pricing.mp3"
+        }
+    ]
+}
