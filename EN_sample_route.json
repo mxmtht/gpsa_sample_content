@@ -1,11 +1,11 @@
 {
-    "name": "Z Sample Route",
+    "name": "Sample Route",
     "fenceRadiusMeters": 75,
     "code": "US",
     "_comment": "code is optional (country code ISO 3166-1)",
     "positions": [
         {
-            "name": "Welcome",
+            "name": "Welcome (tap her to play)",
             "coordinates": [40.690030, -74.045391],
             "_comment": "fenceRadiusMeters is optional and should only be set if necessary",
             "file": "EN_sample/01_welcome.mp3"
