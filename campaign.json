@@ -1,6 +1,6 @@
 {
     "name": "campaign",
-    "_comment": "recordings are shown on campaign button (do not change above name)",
+    "_comment": "Recordings are shown on campaign button. You must use the filename campaign.json. (and above name!)",
     "recordings": [
         {
             "name": "Durchsagen (DE)",

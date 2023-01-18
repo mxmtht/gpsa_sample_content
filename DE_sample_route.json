@@ -1,13 +1,15 @@
 {
     "name": "Beispielroute",
     "fenceRadiusMeters": 75,
+    "_comment1": "Jede Route hat ihre eigene json-Datei. Der Name wird in der App angezeigt.",
     "code": "DE",
-    "_comment": "code is optional (country code ISO 3166-1)",
+    "_comment2": "code ist optional (country code ISO 3166-1)",
     "positions": [
         {
             "name": "Willkommen (hier antippen)",
             "coordinates": [52.516312, 13.378140],
-            "_comment": "fenceRadiusMeters is optional and should only be set if necessary",
+            "fenceRadiusMeters": 74,
+            "_comment": "Sie koennen fuer jeden Punkt einen eigenen fenceRadiusMeters definieren. Dies ist optional und sollte nur bei Bedarf festgelegt werden.",
             "file": "DE_sample/01_welcome.mp3"
         },
         {
