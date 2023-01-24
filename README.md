@@ -41,7 +41,7 @@ There are several objects in the **content-root** directory:
 
 ## Route creation
 
-Let's build a new route in 3 steps:
+Let's build a new route in 2 steps:
 
 1. Put your audio files in place
 1. Create and customize a JSON-document for your route
@@ -100,7 +100,7 @@ Every position has three mandatory fields, being:
 
 It is also possible to define a custom radiusses for single route points, but use this feature carefully.
 
-> 💡 The easiest way to find the correct coordinates is to drop a pin at the desired location in Google Maps an copy the lat and lon values (see image below). ![Screenshot Google Maps](resources/googlemaps.png)
+> 💡 The easiest way to find the correct coordinates is to drop a pin at the desired location in Google Maps and copy the lat and lon values (see image below). ![Screenshot Google Maps](resources/googlemaps.png)
 
 ## Announcements
 
