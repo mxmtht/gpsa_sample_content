@@ -69,7 +69,6 @@ Before we start adding coordinates, let's first enter the correct details for ou
     "name": "My Automated English Tour",
     "fenceRadiusMeters": 75,
     "code": "GB",
-    "_comment": "code is optional (country code ISO 3166-1)",
     "positions": [
         {
             "name": "Point 1",
@@ -84,6 +83,13 @@ Before we start adding coordinates, let's first enter the correct details for ou
     ]
 }
 ```
+
+Every route has 4 fields, being:
+
+* `name`: A human readable label of the point
+* `fenceRadiusMeters`: The default radius of the circle that defines the geo-fence around all the route points
+* `code`: An optional country code to display a flag representing the audio's language
+* `positions`: This part will be dealt with later
 
 > 💡 The appropriate **fenceRadiusMeters** depends on your way of transport and route. For *cars, coaches, ships and boats* a fence radius of 50 to 80 (meters) has proven useful. *Biking and pedestrian* routes require smaller radiuses between 10 and 25 (meters).
 
