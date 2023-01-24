@@ -117,7 +117,7 @@ Let's further setup some announcements in the `campaign.json` document. Announce
             "file": "subdirectory/warning.mp3"
         },
         {
-            "name": "Holiday sppecial",
+            "name": "Holiday special",
             "file": "subdirectory/holidayspecial.mp3"
         }
     ]
@@ -131,4 +131,7 @@ Every announcement has two mandatory fields:
 
 ## Copying the files to your device
 
-In order to deploy your tour to the iOS device we recommend always replacing the whole GPS Audio Player folder on the iOS device.
+In order to deploy your tour to the iOS device we recommend always replacing all contents of the GPS Audio Player data on the iOS device.
+After deleting all of the data in the GPS Audio Player folder simply drag and drop the contents of your content root into the GPS Audio Player folder on the iOS device and wait for the copying process to finish.
+
+> 💡 When you open the app and your route is not displayed in the routes list, that is probably caused by a malformed JSON, with either invalid syntax (e. g. a missing comma) or missing fields. If audio files are missing, you will be prompted an error message after selecting the route in the route list.
